@@ -1,0 +1,20 @@
+{
+  "sarasa": {
+    "version": "1.0.43",
+    "archive": "SarasaFixedJ-TTF-1.0.43.7z",
+    "url": "https://github.com/be5invis/Sarasa-Gothic/releases/download/v1.0.43/SarasaFixedJ-TTF-1.0.43.7z",
+    "sha256": "f43204cda9beb60b06871000b9b813929a6942ec64a7299cc3dde8693e86a4fd"
+  },
+  "patcher": {
+    "version": "3.5.1",
+    "archive": "FontPatcher.zip",
+    "url": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/FontPatcher.zip",
+    "sha256": "42bcb32145499a35732274c7fc48deb434ad0d2e0e118f98527c1479c6fa251a"
+  },
+  "symbols": {
+    "version": "3.5.1",
+    "archive": "NerdFontsSymbolsOnly.zip",
+    "url": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/NerdFontsSymbolsOnly.zip",
+    "sha256": "fdca3682534f6f65e1ccb2345b0362ccf67d9b8eca7c8025330946e93e2473bc"
+  }
+}

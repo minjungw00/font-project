@@ -1,0 +1,44 @@
+{
+  "family": "Font Project Mono",
+  "version": "0.0.1",
+  "max_glyphs": 65535,
+  "styles": [
+    "Regular",
+    "Bold",
+    "Italic",
+    "Bold Italic"
+  ],
+  "required_icons": [
+    "F0219",
+    "F0372",
+    "F0548",
+    "F043F",
+    "F08ED",
+    "F0035",
+    "F033D",
+    "F08E8",
+    "F08DB",
+    "F08C7",
+    "F08DA",
+    "F111B",
+    "F43A",
+    "F252"
+  ],
+  "shape_samples": [
+    "!=",
+    "==",
+    "===",
+    "!==",
+    "->",
+    "=>",
+    "<=",
+    ">=",
+    "<=>",
+    "::",
+    "&&",
+    "||",
+    "//",
+    "/*",
+    "**"
+  ]
+}

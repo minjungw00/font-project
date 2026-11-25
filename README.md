@@ -19,7 +19,7 @@
 
 ```bash
 sudo apt update
-sudo apt install -y python3 python3-venv fontforge python3-fontforge p7zip-full
+sudo apt install -y python3 python3-venv fontforge python3-fontforge p7zip-full libharfbuzz-bin
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
@@ -29,7 +29,7 @@ python -m unittest discover -s tests -v
 python scripts/project.py build --style Regular
 ```
 
-기본 빌드는 잠긴 버전의 Sarasa 및 Nerd Fonts 공식 패처를 사용합니다. 원본 글꼴과 아이콘 수를 검사하고 전체 패치의 용량·너비·윤곽 검증에 실패하면 배포 가능한 결과물을 생성하지 않습니다. 다운로드한 원본, 임시 빌드, 출력 TTF는 Git에 커밋하지 않습니다.
+기본 빌드는 잠긴 버전의 Sarasa 및 Nerd Fonts 공식 패처를 사용합니다. 원본 글꼴과 아이콘 수를 검사하고 전체 패치의 용량·너비·윤곽 검증에 실패하면 배포 가능한 결과물을 생성하지 않습니다. 다운로드한 원본, 임시 빌드, 출력 TTF는 Git에 커밋하지 않습니다. 빌드 검증 통과 시 dist/에 개발용 글꼴을 생성합니다. 전체 패치가 실패하면 docs/DESIGN.md의 용량 확보 및 아이콘 보정 과제를 진행합니다.
 
 `Font Project Mono`는 개발용 임시 패밀리 이름입니다. 최종 이름과 라이선스 고지는 릴리스 전에 확정합니다.
 

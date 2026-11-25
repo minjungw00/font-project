@@ -1,0 +1,26 @@
+# Downloaded inputs and generated files
+/.cache/
+/vendor/
+/build/
+/dist/
+*.ttf
+*.otf
+*.ttc
+*.otc
+*.woff
+*.woff2
+*.7z
+*.zip
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
